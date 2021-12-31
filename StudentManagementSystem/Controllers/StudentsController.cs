@@ -28,11 +28,13 @@ namespace StudentManagementSystem.Controllers
             {
                 var createdStudent = await _studentRepo.CreateStudents(student);
                 return CreatedAtRoute("StudentById", new { id = createdStudent.id }, createdStudent);
+               
             }
             catch (Exception ex)
             {
                 return StatusCode(500, ex.Message);
             }
+           
         }
 
         //Get All Students
