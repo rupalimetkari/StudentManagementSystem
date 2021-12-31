@@ -42,7 +42,7 @@ namespace StudentManagementSystem.Controllers
             try
             {
                 var students = await _studentRepo.GetStudents();
-                return Ok(students);
+                return View(students);
             }
             catch (Exception ex)
             {
@@ -59,7 +59,7 @@ namespace StudentManagementSystem.Controllers
                 var students = await _studentRepo.GetViewStudents(id);
                 if (students == null)
                     return NotFound();
-                return Ok(students);
+                return View(students);
             }
             catch (Exception ex)
             {
