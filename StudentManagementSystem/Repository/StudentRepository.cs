@@ -58,14 +58,14 @@ namespace StudentManagementSystem.Repository
         }
 
         //Get a Single Student
-        public async Task<IEnumerable<Students>> GetViewStudents(int id)
+        public async Task<Students> GetViewStudents(int id)
         {
             var procedureName = "StudentViewByID";
             var parameters = new DynamicParameters();
             parameters.Add("id", id, DbType.Int32, ParameterDirection.Input);
             using (var connection = _context.CreateConnection())
             {
-                var students = await connection.QueryAsync<Students>
+                var students = await connection.QuerySingleAsync<Students>
                     (procedureName, parameters, commandType: CommandType.StoredProcedure);
                 return students;
             }

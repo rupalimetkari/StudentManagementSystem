@@ -36,6 +36,9 @@ namespace StudentManagementSystem
             services.AddScoped<ITeacherRepository, TeacherRepository>();
             services.AddScoped<ICourseRepository, CourseRepository>();
             services.AddControllersWithViews();
+            services.AddRazorPages();
+            services.AddMvc();
+            services.AddMvcCore();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,10 +55,11 @@ namespace StudentManagementSystem
 
             app.UseAuthorization();
 
+          
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-
+                endpoints.MapRazorPages();
             });
         }
     }
