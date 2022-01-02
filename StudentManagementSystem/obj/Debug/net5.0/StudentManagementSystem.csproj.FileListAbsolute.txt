@@ -1,3 +1,318 @@
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/appsettings.Development.json
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/appsettings.json
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/StudentManagementSystem.deps.json
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/StudentManagementSystem.runtimeconfig.json
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/StudentManagementSystem.runtimeconfig.dev.json
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/StudentManagementSystem.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/ref/StudentManagementSystem.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/StudentManagementSystem.pdb
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/StudentManagementSystem.Views.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/StudentManagementSystem.Views.pdb
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Dapper.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Humanizer.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.AspNetCore.Razor.Language.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.CodeAnalysis.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.CodeAnalysis.Razor.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.Data.SqlClient.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.Identity.Client.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/dotnet-aspnet-codegenerator-design.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/System.Composition.AttributedModel.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/System.Composition.Convention.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/System.Composition.Hosting.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/System.Composition.Runtime.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/System.Composition.TypedParts.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/System.Data.SqlClient.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/System.Runtime.Caching.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win-arm/lib/net5.0/dotnet-aspnet-codegenerator-design.exe
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win-arm64/lib/net5.0/dotnet-aspnet-codegenerator-design.exe
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win-arm64/native/sni.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win-x64/native/sni.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win-x86/native/sni.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.csproj.AssemblyReference.cache
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.AssemblyInfoInputs.cache
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.AssemblyInfo.cs
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.csproj.CoreCompileInputs.cache
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.MvcApplicationPartsAssemblyInfo.cs
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.RazorAssemblyInfo.cache
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.RazorAssemblyInfo.cs
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/staticwebassets/StudentManagementSystem.StaticWebAssets.Manifest.cache
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/staticwebassets/StudentManagementSystem.StaticWebAssets.xml
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/scopedcss/bundle/StudentManagementSystem.styles.css
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.TagHelpers.input.cache
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.TagHelpers.output.cache
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.RazorCoreGenerate.cache
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/Razor/Views/Students/GetStudents.cshtml.g.cs
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/Razor/Views/Students/updateStudent.cshtml.g.cs
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.RazorTargetAssemblyInfo.cache
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.RazorTargetAssemblyInfo.cs
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.Views.pdb
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.csproj.CopyComplete
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/ref/StudentManagementSystem.dll
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.pdb
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/StudentManagementSystem.genruntimeconfig.cache
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/Razor/Views/Students/Create.cshtml.g.cs
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/pranavpatil/Downloads/StudentManagementSystem-main/StudentManagementSystem/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.AssemblyInfoInputs.cache
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.AssemblyInfo.cs
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.RazorAssemblyInfo.cache
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.RazorAssemblyInfo.cs
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\appsettings.json
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\StudentManagementSystem.exe
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\StudentManagementSystem.deps.json
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\StudentManagementSystem.runtimeconfig.json
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\StudentManagementSystem.runtimeconfig.dev.json
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\StudentManagementSystem.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\ref\StudentManagementSystem.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\StudentManagementSystem.pdb
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\StudentManagementSystem.Views.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\StudentManagementSystem.Views.pdb
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Dapper.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Humanizer.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\staticwebassets\StudentManagementSystem.StaticWebAssets.Manifest.cache
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\staticwebassets\StudentManagementSystem.StaticWebAssets.xml
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\scopedcss\bundle\StudentManagementSystem.styles.css
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.TagHelpers.input.cache
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.TagHelpers.output.cache
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.RazorCoreGenerate.cache
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\Create.cshtml.g.cs
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\GetAll.cshtml.g.cs
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\UpdateStudent.cshtml.g.cs
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.RazorTargetAssemblyInfo.cache
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.RazorTargetAssemblyInfo.cs
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.Views.pdb
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.csproj.CopyComplete
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\ref\StudentManagementSystem.dll
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.pdb
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.genruntimeconfig.cache
+C:\Users\SuperScientist\Desktop\StudentManagementSystem-main\StudentManagementSystem-main\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\GetStudent.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\appsettings.Development.json
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\appsettings.json
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\StudentManagementSystem.exe
@@ -18,6 +333,19 @@ E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.OpenApi.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
@@ -36,7 +364,12 @@ E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\System.Composition.Hosting.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\System.Composition.Runtime.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\System.Composition.TypedParts.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -89,6 +422,16 @@ E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
@@ -96,6 +439,9 @@ E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.csproj.AssemblyReference.cache
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.AssemblyInfoInputs.cache
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.AssemblyInfo.cs
@@ -110,8 +456,14 @@ E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.TagHelpers.input.cache
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.TagHelpers.output.cache
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.RazorCoreGenerate.cache
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\GetStudents.cshtml.g.cs
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\Create.cshtml.g.cs
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\GetAll.cshtml.g.cs
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\GetStudent.cshtml.g.cs
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\UpdateStudent.cshtml.g.cs
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.RazorTargetAssemblyInfo.cache
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.RazorTargetAssemblyInfo.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.Views.pdb
@@ -120,37 +472,3 @@ E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\ref\StudentManagementSystem.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.pdb
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.genruntimeconfig.cache
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.Identity.Client.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\System.Runtime.Caching.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\GetViewStudents.cshtml.g.cs
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\CreateStudents.cshtml.g.cs
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.csproj.AssemblyReference.cache
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\StudentsView\Index.cshtml.g.cs
