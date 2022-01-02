@@ -74,12 +74,12 @@ namespace StudentManagementSystem.Controllers.Api
 
         //Update a student
         [HttpPut("updateStudent/{id}")]
-        public IActionResult updateStudent(int id, StudentForCreationDto student)
+        public async Task<IActionResult> updateStudent(int id, StudentForCreationDto student)
         {
 
             try
             {
-                _studentRepo.UpdateStudent(id, student);
+                await _studentRepo.UpdateStudent(id, student);
                 return Ok();
             }
             catch (Exception ex)

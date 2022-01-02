@@ -20,7 +20,7 @@
             success: function (data) {
                 console.log(data);
                 //stringify
-                var jsonData = JSON.stringify(data);
+                var jsonData = JSON.stringify(data);  
                 //Parse JSON
                 var objData = $.parseJSON(jsonData);
                 var fname = objData.fname;
@@ -64,9 +64,10 @@
                 {
                     type: "PUT",
                     url: "/api/students/updatestudent/" + sid,
-                    dataType: "JSON",
+                    dataType: "json",
                     data: data,
                     success: function () {
+                      
                         alert("Student Updated successfully.");
                     },
                     error: function () {
