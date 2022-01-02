@@ -18,12 +18,13 @@
                 password: $("#password").val(),
                 phone: $("#phone").val()
             };
-            console.log(data);
+    
             $.ajax(
                 {
                     type: "POST",
                     url: "/api/students/createstudent/",
-                    dataType: "json",
+                    dataType: "text",
+                
                     data: data,
                     success: function () {
 
