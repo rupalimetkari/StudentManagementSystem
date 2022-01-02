@@ -1,7 +1,7 @@
 ﻿using Dapper;
 using StudentManagementSystem.Context;
 using StudentManagementSystem.Contracts;
-using StudentManagementSystem.Dto;
+
 using StudentManagementSystem.Entities;
 using System;
 using System.Collections.Generic;
@@ -20,7 +20,7 @@ namespace StudentManagementSystem.Repository
         }
 
         //Create a New Course
-        public async Task<Course> CreateCourse(CourseForCreationDto course)
+        public async Task<Course> CreateCourse(Course course)
         {
             var procedureName = "createCourselist";
             var parameters = new DynamicParameters();
@@ -80,7 +80,7 @@ namespace StudentManagementSystem.Repository
         }
 
         //Update a Course
-        public async Task<Course> UpdateCourse(int id, CourseForCreationDto course)
+        public async Task<Course> UpdateCourse(int id, Course course)
         {
             var procedureName = "updateCourse";
             var parameters = new DynamicParameters();

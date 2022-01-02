@@ -1,4 +1,4 @@
-﻿using StudentManagementSystem.Dto;
+﻿
 using StudentManagementSystem.Entities;
 using System;
 using System.Collections.Generic;
@@ -12,7 +12,7 @@ namespace StudentManagementSystem.Contracts
         public interface ICourseRepository
         {
             //Create a New Course
-            public Task<Course> CreateCourse(CourseForCreationDto course);
+            public Task<Course> CreateCourse(Course course);
 
             //Get All Course
             public Task<IEnumerable<Course>> GetCourse();
@@ -21,7 +21,7 @@ namespace StudentManagementSystem.Contracts
             public Task<IEnumerable<Course>> GetViewCourse(int id);
 
             //Update a Course
-            public Task<Course> UpdateCourse(int id, CourseForCreationDto course);
+            public Task<Course> UpdateCourse(int id, Course course);
 
             //Delete a Course
             public Task DeleteCourse(int id);

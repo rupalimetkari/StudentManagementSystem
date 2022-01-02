@@ -21,20 +21,13 @@ using StudentManagementSystem;
 #nullable disable
 #nullable restore
 #line 2 "E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\Views\_ViewImports.cshtml"
-using StudentManagementSystem.Dto;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 3 "E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\Views\_ViewImports.cshtml"
 using StudentManagementSystem.Entities;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"056ffa526534241348b49a7701b856d60340c3a9", @"/Views/Students/DeleteStudent.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ff63092842a4a4a3d53837fdabcb1aa96b2130d2", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b39fed964580b5d09fb1321d43974e260469927e", @"/Views/_ViewImports.cshtml")]
     public class Views_Students_DeleteStudent : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<StudentManagementSystem.Entities.Students>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "getall", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -165,7 +158,7 @@ using StudentManagementSystem.Entities;
     <div>
         <input class=""btn-default"" type=""button"" id=""btndelete"" value=""Delete"" />
         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "056ffa526534241348b49a7701b856d60340c3a97630", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "056ffa526534241348b49a7701b856d60340c3a97422", async() => {
                 WriteLiteral("Back to List");
             }
             );

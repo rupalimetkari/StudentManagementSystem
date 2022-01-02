@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using StudentManagementSystem.Dto;
+using StudentManagementSystem.Entities;
 
 namespace StudentManagementSystem.Controllers
 {
@@ -23,7 +23,7 @@ namespace StudentManagementSystem.Controllers
 
         //Create a New Teacher
         [HttpPost("createTeacher")]
-        public async Task<IActionResult> CreateTeacher(TeacherForCreationDto teacher)
+        public async Task<IActionResult> CreateTeacher(Teacher teacher)
         {
             try
             {
@@ -71,7 +71,7 @@ namespace StudentManagementSystem.Controllers
 
         //Update a Teacher
         [HttpPut("updateTeacher/{id}")]
-        public async Task<IActionResult> updateTeacher(int id, TeacherForCreationDto teacher)
+        public async Task<IActionResult> updateTeacher(int id, Teacher teacher)
         {
             try
             {

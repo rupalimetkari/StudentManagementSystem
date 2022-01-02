@@ -4,7 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using StudentManagementSystem.Contracts;
-using StudentManagementSystem.Dto;
+
+using StudentManagementSystem.Entities;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 /// <summary>
@@ -25,7 +26,7 @@ namespace StudentManagementSystem.Controllers.Api
 
         //Create a new student
         [HttpPost("createstudent")]
-        public IActionResult CreateStudent(StudentForCreationDto model)
+        public IActionResult CreateStudent(Students model)
         {
 
             try
@@ -74,7 +75,7 @@ namespace StudentManagementSystem.Controllers.Api
 
         //Update a student
         [HttpPut("updateStudent/{id}")]
-        public async Task<IActionResult> updateStudent(int id, StudentForCreationDto student)
+        public async Task<IActionResult> updateStudent(int id, Students student)
         {
 
             try

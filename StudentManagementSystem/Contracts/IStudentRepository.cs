@@ -1,4 +1,4 @@
-﻿using StudentManagementSystem.Dto;
+﻿
 using StudentManagementSystem.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ namespace StudentManagementSystem.Contracts
     public interface IStudentRepository
     {
         //Create a New Student
-        public Task<Students> CreateStudents(StudentForCreationDto student);
+        public Task<Students> CreateStudents(Students student);
 
         //Get All Students
         public Task<IEnumerable<Students>> GetStudents();
@@ -19,7 +19,7 @@ namespace StudentManagementSystem.Contracts
         public Task<Students> GetViewStudents(int id);
 
         //Update a student
-        public Task<Students> UpdateStudent(int id, StudentForCreationDto student);
+        public Task<Students> UpdateStudent(int id, Students student);
 
         //Delete a student
         public Task DeleteStudent(int id);
