@@ -19,16 +19,16 @@
                 $("#DIV").html('');
                 var DIV = '';
                 $.each(data, function (i, item) {
-                    var rows = "<tr>" +
-                        "<td id='Fname'>" + item.fname + "</td>" +
-                        "<td id='Lname'>" + item.lname + "</td>" +
-                        "<td id='Email'>" + item.email + "</td>" +
-                        "<td id='password'>" + item.password + "</td>" +
-                        "<td id='phone'>" + item.phone + "</td>" +
-                        "<td id='id'>" + item.id + "</td>" +
-                        "<td id='id'>" + item.id + "</td>" +
-                        "<td id='id'>" + item.id + "</td>" +
-                        "</tr>";
+                    var rows = '<tr>' +
+                        '<td>' + item.fname + '</td>' +
+                        '<td>' + item.lname + '</td>' +
+                        '<td>' + item.email + '</td>' +
+                        '<td>' + item.password + '</td>' +
+                        '<td>' + item.phone + '</td>' +
+                        '<td>' + '<a href="getstudent/' + item.id + '">Detail</a></td>' +
+                        '<td>' + '<a href="updatestudent/' + item.id + '">Edit</a></td>' +
+                        '<td>' + '<a href="deletestudent/' + item.id + '">Delete</a></td>' +
+                        '</tr>';
                     $('#Table').append(rows);
                 }); //End of foreach Loop
                 console.log(data);
