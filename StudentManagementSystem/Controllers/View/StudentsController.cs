@@ -44,12 +44,19 @@ namespace StudentManagementSystem.Controllers
             return View();
         }
 
+        //Update a student
         [Route("updatestudent/{id}")]
         public ActionResult UpdateStudent()
         {
             return View();
         }
 
+        //Delete a student
+        [Route("deletestudent/{id}")]
+        public ActionResult DeleteStudent()
+        {
+            return View();
+        }
      
 
     }

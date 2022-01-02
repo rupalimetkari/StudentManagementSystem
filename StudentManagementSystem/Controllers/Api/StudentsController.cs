@@ -79,10 +79,8 @@ namespace StudentManagementSystem.Controllers.Api
 
             try
             {
-                _studentRepo.GetViewStudents(id);
                 _studentRepo.UpdateStudent(id, student);
-                return RedirectToAction("getAllStudents");
-
+                return Ok();
             }
             catch (Exception ex)
             {
@@ -91,7 +89,21 @@ namespace StudentManagementSystem.Controllers.Api
             }
         }
 
-
+        //Delete a Student
+        [HttpDelete("deletestudent/{id}")]
+        public async Task<IActionResult> DeleteStudent(int id)
+        {
+            try
+            {
+                await _studentRepo.DeleteStudent(id);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                //log error
+                return StatusCode(500, ex.Message);
+            }
+        }
 
 
     }

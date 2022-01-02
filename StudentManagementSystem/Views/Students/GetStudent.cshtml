@@ -27,9 +27,13 @@
                 var password = objData.password;
                 $('<tr><td>' + id + '</td><td>' + fname + '</td><td>' + lname + '</td><td>' + email + '</td><td>' + phone + '</td><td>' + password + '</td></tr>').appendTo('#Table');
             },
-            error: function (xhr) {
-                alert(xhr.responseText);
-            }
+
+            failure: function (data) {
+                alert(data.responseText);
+            }, //End of AJAX failure function
+            error: function (data) {
+                alert(data.responseText);
+            } //End of AJAX error function
         });
     });
 </script>
