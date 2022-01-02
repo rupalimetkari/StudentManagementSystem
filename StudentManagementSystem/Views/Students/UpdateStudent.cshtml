@@ -28,7 +28,7 @@
                 var email = objData.email;
                 var phone = objData.phone;
                 var password = objData.password;
-                $('<tr>' +
+                $('<tr id="tr1">' +
                     '<td contenteditable=true id=fname>' + fname + '</td>' +
                     '<td contenteditable=true id=lname>' + lname + '</td>' +
                     '<td contenteditable=true id=email>' + email + '</td>' +
@@ -53,17 +53,21 @@
     var sid = '@ViewBag.ID';
     $(document).ready(function () {
         $("#btnupdate").click(function () {
-            console.log("clicked");
+            var data = {
+                Fname: $("#Table #tr1 #fname").text(),
+                Lname: $("#Table #tr1 #lname").text(),
+                Email: $("#Table #tr1 #email").text(),
+                password: $("#Table #tr1 #password").text(),
+                phone: $("#Table #tr1 #phone").text()
+            };
             $.ajax(
                 {
                     type: "PUT",
                     url: "/api/students/updatestudent/" + sid,
-                    contentType: "application/json",
-                   
-               
+                    dataType: "JSON",
+                    data: data,
                     success: function () {
                         alert("Student Updated successfully.");
-
                     },
                     error: function () {
                     }
