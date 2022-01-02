@@ -31,14 +31,12 @@ namespace StudentManagementSystem
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<DapperContext>();
-            services.AddControllers();
             services.AddScoped<IStudentRepository, StudentRepository>();
             services.AddScoped<ITeacherRepository, TeacherRepository>();
             services.AddScoped<ICourseRepository, CourseRepository>();
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddMvc();
-            services.AddMvcCore();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,7 +57,7 @@ namespace StudentManagementSystem
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-                endpoints.MapRazorPages();
+             
             });
         }
     }

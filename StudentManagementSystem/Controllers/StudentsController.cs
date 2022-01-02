@@ -20,15 +20,17 @@ namespace StudentManagementSystem.Controllers
             _studentRepo = studentRepo;
         }
 
+     
 
         //Create a New Student
-        [HttpPost("createStudent")]
-        public async Task<IActionResult> CreateStudent(StudentForCreationDto student)
+        [HttpPost]
+        [ActionName("InsertStudent")]
+        public async Task<IActionResult> CreateStudents(StudentForCreationDto student)
         {
             try
             {
-                var createdStudent = await _studentRepo.CreateStudents(student);
-                return CreatedAtRoute("StudentById", new { id = createdStudent.id }, createdStudent);
+                await _studentRepo.CreateStudents(student);
+                return RedirectToAction("getStudents");
             }
             catch (Exception ex)
             {
@@ -73,7 +75,7 @@ namespace StudentManagementSystem.Controllers
 
         //Update a student
         [HttpPut("updateStudent/{id}")]
-        public async Task<IActionResult> updateStudent(int id, StudentForCreationDto student)
+        public async Task<IActionResult> UpdateStudent(int id, StudentForCreationDto student)
         {
 
             try
@@ -96,14 +98,17 @@ namespace StudentManagementSystem.Controllers
         [HttpDelete("deletestudent/{id}")]
         public async Task<IActionResult> DeleteStudent(int id)
         {
+           
             try
             {
                 var dbStudent = await _studentRepo.GetViewStudents(id);
 
                 if (dbStudent == null)
                     return NotFound();
+
                 await _studentRepo.DeleteStudent(id);
-                return NoContent();
+                return View(dbStudent);
+
             }
             catch (Exception ex)
             {
