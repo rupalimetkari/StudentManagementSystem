@@ -39,22 +39,25 @@ namespace StudentManagementSystem.Controllers
 
         //Get a Single Student
         [Route("getstudent/{id}")]
-        public ActionResult GetStudent()
+        public ActionResult GetStudent(int id)
         {
+            ViewBag.ID = id;
             return View();
         }
 
         //Update a student
         [Route("updatestudent/{id}")]
-        public ActionResult UpdateStudent()
+        public ActionResult UpdateStudent(int id)
         {
+            ViewBag.ID = id;
             return View();
         }
 
         //Delete a student
         [Route("deletestudent/{id}")]
-        public ActionResult DeleteStudent()
+        public ActionResult DeleteStudent(int id)
         {
+            ViewBag.ID = id;
             return View();
         }
      
