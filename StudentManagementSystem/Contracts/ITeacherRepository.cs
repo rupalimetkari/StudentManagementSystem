@@ -16,7 +16,7 @@ namespace StudentManagementSystem.Contracts
         public Task<IEnumerable<Teacher>> GetTeacher();
 
         //Get a Single Teacher
-        public Task<IEnumerable<Teacher>> GetViewTeacher(int id);
+        public Task<Teacher> GetViewTeacher(int id);
 
         //Update a Teacher
         public Task<Teacher> UpdateTeacher(int id, Teacher teacher);

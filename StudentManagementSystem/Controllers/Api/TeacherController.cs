@@ -73,7 +73,7 @@ namespace StudentManagementSystem.Controllers.Api
         {
             try
             {
-                 await _teacherRepo.GetViewTeacher(id);
+                await _teacherRepo.UpdateTeacher(id, teacher);
                 return Ok();
             }
             catch (Exception ex)
@@ -89,7 +89,7 @@ namespace StudentManagementSystem.Controllers.Api
         {
             try
             {
-                await _teacherRepo.GetViewTeacher(id);
+                await _teacherRepo.DeleteTeacher(id);
                 return Ok();
             }
             catch (Exception ex)
