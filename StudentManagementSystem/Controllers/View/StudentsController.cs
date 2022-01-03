@@ -16,13 +16,7 @@ namespace StudentManagementSystem.Controllers
     [Route("students")]
     public class StudentsController : Controller
     {
-        private readonly IStudentRepository _studentRepo;
-
-        public StudentsController(IStudentRepository studentRepo)
-        {
-            _studentRepo = studentRepo;
-        }
-
+        
         // Create a new student
         [Route("create")]
         public ActionResult Create()
