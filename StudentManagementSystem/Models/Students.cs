@@ -26,6 +26,9 @@ namespace StudentManagementSystem.Entities
         public string phone { get; set; }
 
 
+        public int active { get; set; }
+
+        public int usertype { get; set; }
     }
 
 

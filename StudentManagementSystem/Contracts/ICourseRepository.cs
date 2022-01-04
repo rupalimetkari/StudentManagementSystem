@@ -18,7 +18,7 @@ namespace StudentManagementSystem.Contracts
             public Task<IEnumerable<Course>> GetCourse();
 
             //Get a Single Course
-            public Task<IEnumerable<Course>> GetViewCourse(int id);
+            public Task<Course> GetViewCourse(int id);
 
             //Update a Course
             public Task<Course> UpdateCourse(int id, Course course);

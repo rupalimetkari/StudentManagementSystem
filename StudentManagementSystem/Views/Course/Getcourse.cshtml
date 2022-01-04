@@ -1,0 +1,72 @@
+﻿@model StudentManagementSystem.Entities.Course
+
+@{
+    ViewData["Title"] = "Getcourse";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+<script>
+
+
+    var sid = '@ViewBag.ID';
+    $(document).ready(function () {
+        $.ajax({
+            type: "GET",
+            url: "/api/course/getcourse/" + sid,
+            contentType: "json",
+            dataType: "json",
+          
+            success: function (data) {
+                console.log(data);
+                //stringify
+                var jsonData = JSON.stringify(data);
+                //Parse JSON
+                var objData = $.parseJSON(jsonData);
+                var name = objData.name;
+                var course_no = objData.course_no;
+
+                $('<tr><td>'
+                    
+                    + name + '</td><td>'
+                    + course_no + 
+                    '</td></tr>').appendTo('#Table');
+            },
+
+            failure: function (data) {
+                alert(data.responseText);
+            }, //End of AJAX failure function
+            error: function (data) {
+                alert(data.responseText);
+            } //End of AJAX error function
+        });
+    });
+</script>
+
+
+<h1>GetStudent</h1>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        Test Data from API
+    </div>   <!--en dof panel-heading -->
+    <div class="panel-body">
+        <table class="table table-bordered" id="Table">
+            <tr>
+                
+                <th>name</th>
+                <th>course number</th>
+                
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="getall" asp-controller="Course">Back to List</a>
+</div>

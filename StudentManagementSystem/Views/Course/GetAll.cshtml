@@ -1,0 +1,66 @@
+﻿@model IEnumerable<StudentManagementSystem.Entities.Course>
+
+@{
+    ViewData["Title"] = "GetAll";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>GetAll</h1>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            type: "GET",
+            url: "/api/course/getallcourse",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (data) {
+                console.log(data);
+                $("#DIV").html('');
+                var DIV = '';
+                $.each(data, function (i, item) {
+                    var rows = '<tr>' +
+                        '<td>' + item.name + '</td>' +
+                        '<td>' + item.course_no + '</td>' +
+                        '<td>' + '<a href="getcourse/' + item.id + '">Detail</a></td>' +
+                        '<td>' + '<a href="updatecourse/' + item.id + '">Edit</a></td>' +
+                        '<td>' + '<a href="deletecourse/' + item.id + '">Delete</a></td>' +
+                        '</tr>';
+                    $('#Table').append(rows);
+                }); 
+           
+            }, 
+
+            failure: function (data) {
+                alert(data.responseText);
+            }, 
+            error: function (data) {
+                alert(data.responseText);
+            } 
+
+        });
+    });
+</script>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        Test Data from API
+    </div>   <!--en dof panel-heading -->
+    <div class="panel-body">
+        <table class="table table-bordered" id="Table">
+            <tr>
+                <th>name</th>
+                <th>course number</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>   <!--end of table-row -->
+        </table>   <!--end of table -->
+    </div> <!--end of Panel-body -->
+</div>
+
