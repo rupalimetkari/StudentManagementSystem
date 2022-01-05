@@ -484,3 +484,8 @@ E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.pdb
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.genruntimeconfig.cache
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.csproj.AssemblyReference.cache
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Home\Profile.cshtml.g.cs
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Home\Register.cshtml.g.cs
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Shared\_Authtemp.cshtml.g.cs

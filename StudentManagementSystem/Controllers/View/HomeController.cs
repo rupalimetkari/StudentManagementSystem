@@ -14,6 +14,31 @@ namespace StudentManagementSystem.Controllers.View
         {
             return View();
         }
+
+        [Route("privacy")]
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        [Route("profile")]
+        public IActionResult Profile()
+        {
+            return View();
+        }
+
+        [Route("register")]
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        [Route("login")]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
     }
 }
  
