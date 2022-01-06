@@ -14,11 +14,11 @@ using StudentManagementSystem.Entities;
 namespace StudentManagementSystem.Controllers.Api
 {
     [Route("api/[controller]")]
-    public class StudentsController : Controller
+    public class StudentsApiController : Controller
     {
         private readonly IStudentRepository _studentRepo;
 
-        public StudentsController(IStudentRepository studentRepo)
+        public StudentsApiController(IStudentRepository studentRepo)
         {
             _studentRepo = studentRepo;
         }

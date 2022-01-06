@@ -25,9 +25,9 @@ namespace StudentManagementSystem
         {
             services.AddSingleton<DapperContext>();
             services.AddControllers();
-            services.AddScoped<IStudentRepository, StudentRepository>();
-            services.AddScoped<ITeacherRepository, TeacherRepository>();
-            services.AddScoped<ICourseRepository, CourseRepository>();
+            services.AddScoped<IStudentRepository, StudentService>();
+            services.AddScoped<ITeacherRepository, TeacherService>();
+            services.AddScoped<ICourseRepository, CourseService>();
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddMvc(options =>

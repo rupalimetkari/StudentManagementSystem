@@ -11,10 +11,10 @@ using System.Threading.Tasks;
 
 namespace StudentManagementSystem.Repository
 {
-    public class TeacherRepository : ITeacherRepository
+    public class TeacherService : ITeacherRepository
     {
         private readonly DapperContext _context;
-        public TeacherRepository(DapperContext context)
+        public TeacherService(DapperContext context)
         {
             _context = context;
         }

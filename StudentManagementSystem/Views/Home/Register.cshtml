@@ -1,10 +1,75 @@
-﻿
+﻿@model StudentManagementSystem.Entities.Students
+
 @{
     ViewData["Title"] = "Register";
     Layout = "~/Views/Shared/_Authtemp.cshtml";
     ViewData["authbodyclass"] = "signup-page";
 }
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+
+
+<script>
+
+
+    $(document).ready(function () {
+        $("#btnsignup").on('click', function (e) {
+            var data = {
+                Fname: $("#txtfname").val(),
+                Lname: $("#txtlname").val(),
+                Email: $("#txtemail").val(),
+                password: $("#txtpassword").val(),
+                phone: $("#txtphone").val(),
+            };
+            var confirm = document.getElementById("txtconfirmpassword").value;
+            var ddl = document.getElementById("ddlusertype").value;
+            if (data.password == confirm) {
+                if (ddl == 1) {
+
+                } else if (ddl == 2) {
+                    $.ajax(
+                        {
+                            type: "POST",
+                            url: "/api/teacher/createteacher/",
+                            dataType: "text",
+                            data: data,
+                            success: function () {
+                                alert("Teacher Create successfully.");
+                                window.location = "/teachers/getall";
+                            },
+                            error: function () {
+                            }
+
+                        });
+                } else {
+                    $.ajax(
+                        {
+                            type: "POST",
+                            url: "/api/students/createstudent/",
+                            dataType: "text",
+                            data: data,
+                            success: function () {
+                                alert("Student Create successfully.");
+                                window.location = "/students/getall";
+                            },
+                            error: function () {
+                            }
+
+                        });
+                }
+            } else {
+                alert("Password did not match");
+                document.getElementById("txtconfirmpassword").value = "";
+                document.getElementById("txtpassword").value = "";
+            };
+
+
+            e.preventDefault();
+        });
+    });
+
+</script>
 
 <div class="signup-box">
     <div class="logo">
@@ -20,7 +85,7 @@
                         <i class="material-icons">person</i>
                     </span>
                     <div class="form-line">
-                        <input type="text" class="form-control" name="firstname" placeholder="First Name" required autofocus>
+                        <input type="text" class="form-control" id="txtfname" name="firstname" placeholder="First Name" autofocus>
                     </div>
                 </div>
 
@@ -29,7 +94,7 @@
                         <i class="material-icons">person</i>
                     </span>
                     <div class="form-line">
-                        <input type="text" class="form-control" name="lastname" placeholder="Last Name" required autofocus>
+                        <input type="text" class="form-control" id="txtlname" name="lastname" placeholder="Last Name" autofocus>
                     </div>
                 </div>
 
@@ -38,7 +103,7 @@
                         <i class="material-icons">phone</i>
                     </span>
                     <div class="form-line">
-                        <input type="phone" class="form-control" name="phone" placeholder="Phone" required>
+                        <input type="phone" class="form-control" id="txtphone" name="phone" placeholder="Phone">
                     </div>
                 </div>
 
@@ -49,8 +114,8 @@
                     </span>
 
 
-                    <select class="form-control show-tick">
-                        <option value="">-- Select User Type --</option>
+                    <select class="form-control show-tick" id="ddlusertype">
+                        <option>-- Select User Type --</option>
                         <option value="1">Admin</option>
                         <option value="2">Teacher</option>
                         <option value="3">Student</option>
@@ -65,7 +130,7 @@
                         <i class="material-icons">email</i>
                     </span>
                     <div class="form-line">
-                        <input type="email" class="form-control" name="email" placeholder="Email Address" required>
+                        <input type="email" class="form-control" id="txtemail" name="email" placeholder="Email Address">
                     </div>
                 </div>
                 <div class="input-group">
@@ -73,7 +138,7 @@
                         <i class="material-icons">lock</i>
                     </span>
                     <div class="form-line">
-                        <input type="password" class="form-control" name="password" minlength="6" placeholder="Password" required>
+                        <input type="password" class="form-control" id="txtpassword" name="password" minlength="6" placeholder="Password">
                     </div>
                 </div>
                 <div class="input-group">
@@ -81,7 +146,7 @@
                         <i class="material-icons">lock</i>
                     </span>
                     <div class="form-line">
-                        <input type="password" class="form-control" name="confirm" minlength="6" placeholder="Confirm Password" required>
+                        <input type="password" class="form-control" id="txtconfirmpassword" name="confirm" minlength="6" placeholder="Confirm Password">
                     </div>
                 </div>
 
@@ -92,7 +157,7 @@
                     <label for="terms">I read and agree to the <a href="javascript:void(0);">terms of usage</a>.</label>
                 </div>
 
-                <button class="btn btn-block btn-lg bg-pink waves-effect" type="submit">SIGN UP</button>
+                <button class="btn btn-block btn-lg bg-pink waves-effect" type="submit" id="btnsignup">SIGN UP</button>
 
                 <div class="m-t-25 m-b--5 align-center">
                     <a asp-action="login" asp-controller="Home">You already have a account?</a>

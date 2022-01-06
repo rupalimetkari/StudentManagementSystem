@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace StudentManagementSystem.Controllers.View
 {
     [Route("/")]
-    public class HomeController : Controller
+    public class HomeViewController : Controller
     {
         [Route("index")]
         public IActionResult Index()

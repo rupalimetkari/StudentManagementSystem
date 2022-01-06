@@ -9,10 +9,10 @@ using StudentManagementSystem.Entities;
 namespace StudentManagementSystem.Controllers.Api
 {
     [Route("api/[controller]")]
-    public class CourseController : Controller
+    public class CourseApiController : Controller
     {
         private readonly ICourseRepository _courseRepo;
-        public CourseController(ICourseRepository courseRepo)
+        public CourseApiController(ICourseRepository courseRepo)
         {
             _courseRepo = courseRepo;
         }

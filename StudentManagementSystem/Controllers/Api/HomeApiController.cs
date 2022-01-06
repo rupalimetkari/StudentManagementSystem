@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace StudentManagementSystem.Controllers.Api
 {
-    public class HomeController
+    public class HomeApiController
     {
     }
 }
