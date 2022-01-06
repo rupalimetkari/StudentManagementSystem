@@ -473,6 +473,7 @@ E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\GetAll.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\GetStudent.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\UpdateStudent.cshtml.g.cs
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\TeacherView\Index.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Teacher\Create.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Teacher\DeleteTeacher.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Teacher\GetAll.cshtml.g.cs
@@ -488,3 +489,4 @@ E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\ref\StudentManagementSystem.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.pdb
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.genruntimeconfig.cache
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\Index.cshtml.g.cs

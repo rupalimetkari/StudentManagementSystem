@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using StudentManagementSystem.Common;
 using StudentManagementSystem.Context;
 using StudentManagementSystem.Contracts;
 
@@ -18,7 +19,9 @@ namespace StudentManagementSystem.Repository
         {
             _context = context;
         }
-       
+
+        SaltEncryption salt = new SaltEncryption();
+
         //Create a New Student
         public async Task<Teacher> CreateTeacher(Teacher teacher)
         {
@@ -27,7 +30,8 @@ namespace StudentManagementSystem.Repository
             parameters.Add("Fname", teacher.Fname, DbType.String);
             parameters.Add("Lname", teacher.Lname, DbType.String);
             parameters.Add("Email", teacher.Email, DbType.String);
-            parameters.Add("password", teacher.password, DbType.String);
+            var _password = salt.ComputeHash(teacher.password, "SHA512", null);
+            parameters.Add("password", _password, DbType.String);
             parameters.Add("phone", teacher.phone, DbType.String);
             using (var connection = _context.CreateConnection())
             {

@@ -8,51 +8,54 @@ using StudentManagementSystem.Entities;
 
 namespace StudentManagementSystem.Controllers
 {
-    [Route("courses")]
 
-    public class CourseViewController : Controller
+    [Route("teachers")]
+    public class TeacherController : Controller
     {
-
-
-        //Create a New Course
+        
+        // Create a new Teacher
         [Route("create")]
         public ActionResult Create()
         {
             return View();
         }
 
-        //Get All Courses
+        //Get All Teacher
         [Route("getall")]
         public ActionResult GetAll()
         {
             return View();
         }
 
-        //Get a Single Course
-        [Route("getcourse/{id}")]
-        public ActionResult Getcourse(int id)
+        //Get a Single Teacher
+        [Route("getteacher/{id}")]
+        public ActionResult GetTeacher(int id)
         {
             ViewBag.ID = id;
             return View();
         }
 
-        //Update a course
-        [Route("updatecourse/{id}")]
-        public ActionResult Updatecourse(int id)
+        //Update a Teacher
+        [Route("updateteacher/{id}")]
+        public ActionResult UpdateTeacher(int id)
         {
             ViewBag.ID = id;
             return View();
         }
 
-        //Delete a course
-        [Route("deletecourse/{id}")]
-        public ActionResult Deletecourse(int id)
+        //Delete a Teacher
+        [Route("deleteteacher/{id}")]
+        public ActionResult DeleteTeacher(int id)
         {
             ViewBag.ID = id;
             return View();
         }
 
+        [Route("index")]
+        public IActionResult Index()
+        {
+            return View();
+        }
 
     }
-
 }

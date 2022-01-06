@@ -14,7 +14,7 @@ namespace StudentManagementSystem.Controllers
 {
 
     [Route("students")]
-    public class StudentsViewController : Controller
+    public class StudentsController : Controller
     {
         
         // Create a new student
@@ -52,6 +52,13 @@ namespace StudentManagementSystem.Controllers
         public ActionResult DeleteStudent(int id)
         {
             ViewBag.ID = id;
+            return View();
+        }
+
+
+        [Route("index")]
+        public IActionResult Index()
+        {
             return View();
         }
      

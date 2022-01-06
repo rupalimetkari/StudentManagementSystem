@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 namespace StudentManagementSystem.Controllers.Api
 {
     [Route("api/[controller]")]
-    public class TeacherApiController : Controller
+    public class TeacherController : Controller
     {
         private readonly ITeacherRepository _teacherRepo;
 
-        public TeacherApiController(ITeacherRepository teacherRepo)
+        public TeacherController(ITeacherRepository teacherRepo)
         {
             _teacherRepo = teacherRepo;
         }
