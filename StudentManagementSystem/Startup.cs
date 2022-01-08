@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 using StudentManagementSystem.Context;
 using StudentManagementSystem.Contracts;
 using StudentManagementSystem.Repository;
-
+using System;
 
 namespace StudentManagementSystem
 {
@@ -33,8 +33,16 @@ namespace StudentManagementSystem
             services.AddMvc(options =>
             {
                 options.SuppressAsyncSuffixInActionNames = false;
-            });
+            }).AddSessionStateTempDataProvider();
             services.AddMvcCore();
+            services.AddAuthentication();
+            services.AddDistributedMemoryCache();
+            services.AddSession(options =>
+            {
+                options.Cookie.Name = ".TestApp.Session";
+                options.IdleTimeout = TimeSpan.FromSeconds(30);
+                options.Cookie.IsEssential = true;
+            });
 
         }
 
@@ -52,12 +60,15 @@ namespace StudentManagementSystem
             app.UseRouting();
 
             app.UseAuthorization();
-         
+            app.UseSession();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
                 endpoints.MapRazorPages();
             });
+
+        
+           
         }
     }
 }

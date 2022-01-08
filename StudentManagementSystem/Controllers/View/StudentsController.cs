@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 
 
 /// <summary>
@@ -59,6 +60,18 @@ namespace StudentManagementSystem.Controllers
         [Route("index")]
         public IActionResult Index()
         {
+            if(HttpContext.Session.GetInt32("SessionKeyUserType") == null)
+            {
+                return RedirectToAction("Login", "Home");
+            }
+            ViewBag.currstdid = HttpContext.Session.GetInt32("SessionKeyId");
+            ViewBag.currstdactive = HttpContext.Session.GetInt32("SessionKeyActive");
+            ViewBag.currstdusertype = HttpContext.Session.GetInt32("SessionKeyUserType");
+            ViewBag.currstdfname = HttpContext.Session.GetString("SessionKeyFname");
+            ViewBag.currstdlname = HttpContext.Session.GetString("SessionKeyLname");
+            ViewBag.currstdemail = HttpContext.Session.GetString("SessionKeyEmail");
+            ViewBag.currstdpassword = HttpContext.Session.GetString("SessionKeypassword");
+            ViewBag.currstdphone = HttpContext.Session.GetString("SessionKeyphone");
             return View();
         }
      

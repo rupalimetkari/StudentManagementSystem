@@ -116,6 +116,41 @@ namespace StudentManagementSystem.Repository
             }
         }
 
-      
+        //Login a student
+        public async  Task<Students> LoginStudent(string email, string password)
+        {
+
+            var procedureName = "loginstudent";
+            var parameters = new DynamicParameters();
+            parameters.Add("Email", email, DbType.String, ParameterDirection.Input);
+            using var connection = _context.CreateConnection();
+            var students = await connection.QuerySingleAsync(procedureName, parameters, commandType: CommandType.StoredProcedure);
+
+    
+            //Extracting id and password
+            var Heading = ((IDictionary<string, object>)students).Keys.ToArray();
+            var details = ((IDictionary<string, object>)students);
+            var id = int.Parse(details[Heading[0]].ToString());
+            var passworddb = details[Heading[1]].ToString();
+
+            //verify password
+            bool passkey = salt.VerifyHash(password, "SHA512", passworddb);
+
+            if(passkey == true)
+            {
+                var _procedureName = "StudentViewByID";
+                var _parameters = new DynamicParameters();
+                _parameters.Add("id", id, DbType.Int32, ParameterDirection.Input);
+                var returnstudent = await connection.QuerySingleAsync<Students>
+                        (_procedureName, _parameters, commandType: CommandType.StoredProcedure);
+                return returnstudent;
+            }
+            else
+            {
+                return null;
+            }
+
+
+        }
     }
 }

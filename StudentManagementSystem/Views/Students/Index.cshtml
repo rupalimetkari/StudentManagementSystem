@@ -1,8 +1,11 @@
 ﻿
+
 @{
-    ViewData["Title"] = "Index";
+    ViewData["PersonName"] = ViewBag.currstdfname;
+    ViewData["PersonEmail"] = ViewBag.currstdemail;
     Layout = "~/Views/Shared/_Layout.cshtml";
+
 }
 
-<h1>Index</h1>
-
+<h1>  @ViewBag.currstdusertype </h1>
+<p> this is student view</p>
