@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using StudentManagementSystem.Entities;
+using Microsoft.AspNetCore.Http;
 
 namespace StudentManagementSystem.Controllers
 {
@@ -54,6 +55,17 @@ namespace StudentManagementSystem.Controllers
         [Route("index")]
         public IActionResult Index()
         {
+            return View();
+        }
+
+        [Route("profile")]
+        public IActionResult Profile()
+        {
+            if (HttpContext.Session.GetInt32("SessionKeyUserType") == null)
+            {
+                return RedirectToAction("Login", "Home");
+            }
+
             return View();
         }
 

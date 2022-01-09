@@ -23,5 +23,11 @@ namespace StudentManagementSystem.Contracts
 
         //Delete a Teacher
         public Task DeleteTeacher(int id);
+
+        //Log in a Teacher
+        public Task<Teacher> LoginTeacher(string email, string password);
+
+        //Update Teacher Password
+        public Task<string> UpdatePasswordTeacher(int id, string password);
     }
 }

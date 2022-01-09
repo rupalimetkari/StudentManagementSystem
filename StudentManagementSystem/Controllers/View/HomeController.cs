@@ -32,7 +32,7 @@ namespace StudentManagementSystem.Controllers.View
             }
             else if (HttpContext.Session.GetInt32("SessionKeyUserType") == 2)
             {
-                
+                return RedirectToAction("Profile", "Teacher");
             }
             else if (HttpContext.Session.GetInt32("SessionKeyUserType") == 3)
             {

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using StudentManagementSystem.Contracts;
 using StudentManagementSystem.Entities;
 using System;
@@ -25,7 +26,6 @@ namespace StudentManagementSystem.Controllers.Api
             try
             {
                 _teacherRepo.CreateTeacher(teacher);
-              
             }
             catch (Exception ex)
             {
@@ -73,7 +73,10 @@ namespace StudentManagementSystem.Controllers.Api
         {
             try
             {
-                await _teacherRepo.UpdateTeacher(id, teacher);
+               var tch= await _teacherRepo.UpdateTeacher(id, teacher);
+                HttpContext.Session.SetString("SessionKeyFname", tch.Fname);
+                HttpContext.Session.SetString("SessionKeyLname", tch.Lname);
+                HttpContext.Session.SetString("SessionKeyphone", tch.phone);
                 return Ok();
             }
             catch (Exception ex)
@@ -90,6 +93,7 @@ namespace StudentManagementSystem.Controllers.Api
             try
             {
                 await _teacherRepo.DeleteTeacher(id);
+                HttpContext.Session.Clear();
                 return Ok();
             }
             catch (Exception ex)
@@ -98,6 +102,54 @@ namespace StudentManagementSystem.Controllers.Api
                 return StatusCode(500, ex.Message);
             }
         }
+
+        [HttpPost("loginteacher")]
+        public async Task<IActionResult> LoginTeacher(string email, string password)
+        {
+            try
+            {
+                var teacher = await _teacherRepo.LoginTeacher(email, password);
+
+                if (teacher == null)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    HttpContext.Session.SetInt32("SessionKeyId", teacher.id);
+                    HttpContext.Session.SetInt32("SessionKeyActive", teacher.active);
+                    HttpContext.Session.SetInt32("SessionKeyUserType", teacher.usertype);
+                    HttpContext.Session.SetString("SessionKeyFname", teacher.Fname);
+                    HttpContext.Session.SetString("SessionKeyLname", teacher.Lname);
+                    HttpContext.Session.SetString("SessionKeyEmail", teacher.Email);
+                    HttpContext.Session.SetString("SessionKeyphone", teacher.phone);
+                    return Ok(teacher);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                //log error
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+
+        [HttpPut("UpdatePasswordTeacher")]
+        public async Task<IActionResult> UpdatePasswordTeacher(int id, string password)
+        {
+            try
+            {
+                var pass = await _teacherRepo.UpdatePasswordTeacher(id, password);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                //log error
+                return StatusCode(500, ex.Message);
+            }
+        }
+
 
     }
 }

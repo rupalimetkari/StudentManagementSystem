@@ -27,14 +27,20 @@
                 $.ajax(
                     {
                         type: "POST",
-                        url: "/api/teacher/createteacher/",
-                        dataType: "json",
+                        url: "/api/teacher/loginteacher/",
+                        dataType: "text",
                         data: data,
                         success: function () {
-                            alert("Teacher Create successfully.");
-                            window.location = "/teachers/getall";
+                            alert("Teacher Logged Succesfully.");
+                            window.location = "/teachers/index";
                         },
-                        error: function () {
+                        error: function (d) {
+                            alert("Credentials wrong");
+                            document.getElementById("txtpassword").value = "";
+                            document.getElementById("txtemail").value = "";
+                        },
+                        failure: function (d) {
+                            alert("Credentials wrong");
                         }
 
                     });
