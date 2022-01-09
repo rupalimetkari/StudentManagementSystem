@@ -36,7 +36,7 @@ namespace StudentManagementSystem.Controllers
         [Route("getstudent/{id}")]
         public ActionResult GetStudent(int id)
         {
-            ViewBag.ID = id;
+           
             return View();
         }
 
@@ -44,7 +44,7 @@ namespace StudentManagementSystem.Controllers
         [Route("updatestudent/{id}")]
         public ActionResult UpdateStudent(int id)
         {
-            ViewBag.ID = id;
+           
             return View();
         }
 
@@ -52,7 +52,7 @@ namespace StudentManagementSystem.Controllers
         [Route("deletestudent/{id}")]
         public ActionResult DeleteStudent(int id)
         {
-            ViewBag.ID = id;
+           
             return View();
         }
 
@@ -60,18 +60,25 @@ namespace StudentManagementSystem.Controllers
         [Route("index")]
         public IActionResult Index()
         {
-            if(HttpContext.Session.GetInt32("SessionKeyUserType") == null)
+            if (HttpContext.Session.GetInt32("SessionKeyUserType") == null)
             {
                 return RedirectToAction("Login", "Home");
             }
-            ViewBag.currstdid = HttpContext.Session.GetInt32("SessionKeyId");
-            ViewBag.currstdactive = HttpContext.Session.GetInt32("SessionKeyActive");
-            ViewBag.currstdusertype = HttpContext.Session.GetInt32("SessionKeyUserType");
-            ViewBag.currstdfname = HttpContext.Session.GetString("SessionKeyFname");
-            ViewBag.currstdlname = HttpContext.Session.GetString("SessionKeyLname");
-            ViewBag.currstdemail = HttpContext.Session.GetString("SessionKeyEmail");
-            ViewBag.currstdpassword = HttpContext.Session.GetString("SessionKeypassword");
-            ViewBag.currstdphone = HttpContext.Session.GetString("SessionKeyphone");
+
+
+       
+            return View();
+        }
+
+    
+        [Route("profile")]
+        public IActionResult Profile()
+        {
+            if (HttpContext.Session.GetInt32("SessionKeyUserType") == null)
+            {
+                return RedirectToAction("Login", "Home");
+            }
+   
             return View();
         }
      

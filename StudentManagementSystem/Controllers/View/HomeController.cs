@@ -36,7 +36,7 @@ namespace StudentManagementSystem.Controllers.View
             }
             else if (HttpContext.Session.GetInt32("SessionKeyUserType") == 3)
             {
-               return RedirectToAction( "Index", "Students");
+               return RedirectToAction( "Profile", "Students");
             }
             return View();
         }

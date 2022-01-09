@@ -20,7 +20,6 @@ namespace StudentManagementSystem.Controllers.Api
     {
         private readonly IStudentRepository _studentRepo;
 
-        public const string SessionKeyId = "_Id";
 
         public StudentsController(IStudentRepository studentRepo)
         {
@@ -100,6 +99,7 @@ namespace StudentManagementSystem.Controllers.Api
             try
             {
                 await _studentRepo.DeleteStudent(id);
+                
                 return Ok();
             }
             catch (Exception ex)

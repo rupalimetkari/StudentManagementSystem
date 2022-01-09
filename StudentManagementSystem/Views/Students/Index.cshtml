@@ -1,11 +1,13 @@
 ﻿
 
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
 @{
-    ViewData["PersonName"] = ViewBag.currstdfname;
-    ViewData["PersonEmail"] = ViewBag.currstdemail;
+    ViewData["PersonName"] = HttpContextAccessor.HttpContext.Session.GetString("SessionKeyFname");
+    ViewData["PersonEmail"] = HttpContextAccessor.HttpContext.Session.GetString("SessionKeyEmail");
     Layout = "~/Views/Shared/_Layout.cshtml";
 
 }
 
-<h1>  @ViewBag.currstdusertype </h1>
-<p> this is student view</p>
+
+<p> this is student Index</p>
