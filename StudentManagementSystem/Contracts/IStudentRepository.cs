@@ -26,6 +26,9 @@ namespace StudentManagementSystem.Contracts
 
         //Log in a student
         public Task<Students> LoginStudent(string email, string password);
+
+        //Update Student Password
+        public Task<string> UpdatePasswordStudent(int id, string password);
        
     }
 }

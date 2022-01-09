@@ -82,7 +82,10 @@ namespace StudentManagementSystem.Controllers.Api
 
             try
             {
-                await _studentRepo.UpdateStudent(id, student);
+                var std =  await _studentRepo.UpdateStudent(id, student);
+                HttpContext.Session.SetString("SessionKeyFname", std.Fname);
+                HttpContext.Session.SetString("SessionKeyLname", std.Lname);
+                HttpContext.Session.SetString("SessionKeyphone", std.phone);
                 return Ok();
             }
             catch (Exception ex)
@@ -99,7 +102,7 @@ namespace StudentManagementSystem.Controllers.Api
             try
             {
                 await _studentRepo.DeleteStudent(id);
-                
+                HttpContext.Session.Clear();
                 return Ok();
             }
             catch (Exception ex)
@@ -129,7 +132,6 @@ namespace StudentManagementSystem.Controllers.Api
                     HttpContext.Session.SetString("SessionKeyFname", student.Fname);
                     HttpContext.Session.SetString("SessionKeyLname", student.Lname);
                     HttpContext.Session.SetString("SessionKeyEmail", student.Email);
-                    HttpContext.Session.SetString("SessionKeypassword", student.password);
                     HttpContext.Session.SetString("SessionKeyphone", student.phone);
                     return Ok(student);
                 }
@@ -142,6 +144,20 @@ namespace StudentManagementSystem.Controllers.Api
             }
         }
 
+        [HttpPut("UpdatePasswordStudent")]
+        public async Task<IActionResult> UpdatePasswordStudent(int id, string password)
+        {
+            try
+            {
+                var pass = await _studentRepo.UpdatePasswordStudent(id, password);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                //log error
+                return StatusCode(500, ex.Message);
+            }
+        }
 
     }
 }

@@ -20,7 +20,6 @@
 
 
     $(document).ready(function () {
-
         $("#btndelete").on('click', function (e) {
             $.ajax({
                 type: "DELETE",
@@ -32,11 +31,63 @@
                 },
                 failure: function () {
                     alert("failure");
-                }, 
+                },
                 error: function () {
                     alert("error");
                 }
             });
+            e.preventDefault();
+        });
+
+        $("#btnedit").on('click', function (e) {
+            var data = {
+                Fname: $("#txtfirstname").val(),
+                Lname: $("#txtlastname").val(),
+                phone: $("#txtphone").val()
+            };
+            $.ajax({
+                type: "PUT",
+                url: "/api/students/updateStudent/" + @HttpContextAccessor.HttpContext.Session.GetInt32("SessionKeyId"),
+                data: data,
+                dataType: "html",
+                success: function () {
+                    alert("Data Updated Successfully");
+                },
+                failure: function () {
+                    alert("failure");
+                },
+                error: function () {
+                    alert("error");
+                }
+            });
+            e.preventDefault();
+        });
+
+        $("#btnpassword").on('click', function (e) {
+            var data = {
+                id: @HttpContextAccessor.HttpContext.Session.GetInt32("SessionKeyId"),
+                password: $("#txtNewPassword").val(),
+            };
+            var confirm = document.getElementById("txtNewPasswordConfirm").value;
+            if (data.password == confirm) {
+               
+                 $.ajax({
+                    type: "PUT",
+                    url: "/api/students/UpdatePasswordStudent", 
+                    data: data,
+                    dataType: "html",
+                    success: function () {
+                        alert("Password Updated Successfully");
+                    },
+                    failure: function () {
+                        alert("failure");
+                    },
+                    error: function () {
+                        alert("error");
+                    }
+                });
+            }
+
             e.preventDefault();
         });
 
@@ -133,7 +184,7 @@
                                     <label for="NameSurname" class="col-sm-2 control-label">First Name</label>
                                     <div class="col-sm-10">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" id="firstname" name="firstname" value="@HttpContextAccessor.HttpContext.Session.GetString("SessionKeyFname")">
+                                            <input type="text" class="form-control" id="txtfirstname" name="firstname" value="@HttpContextAccessor.HttpContext.Session.GetString("SessionKeyFname")">
                                         </div>
                                     </div>
                                 </div>
@@ -141,7 +192,7 @@
                                     <label for="NameSurname" class="col-sm-2 control-label">Last Name</label>
                                     <div class="col-sm-10">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" id="lastname" name="lastname" value="@HttpContextAccessor.HttpContext.Session.GetString("SessionKeyLname")">
+                                            <input type="text" class="form-control" id="txtlastname" name="lastname" value="@HttpContextAccessor.HttpContext.Session.GetString("SessionKeyLname")">
                                         </div>
                                     </div>
                                 </div>
@@ -149,7 +200,7 @@
                                     <label for="Email" class="col-sm-2 control-label">Email</label>
                                     <div class="col-sm-10">
                                         <div class="form-line">
-                                            <input type="email" class="form-control" id="Email" name="Email" value="@HttpContextAccessor.HttpContext.Session.GetString("SessionKeyEmail")" readonly>
+                                            <input type="email" class="form-control" id="txtEmail" name="Email" value="@HttpContextAccessor.HttpContext.Session.GetString("SessionKeyEmail")" readonly>
                                         </div>
                                     </div>
                                 </div>
@@ -157,7 +208,7 @@
                                     <label for="NameSurname" class="col-sm-2 control-label">Phone</label>
                                     <div class="col-sm-10">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" id="phone" name="phone" value="@HttpContextAccessor.HttpContext.Session.GetString("SessionKeyphone")">
+                                            <input type="text" class="form-control" id="txtphone" name="phone" value="@HttpContextAccessor.HttpContext.Session.GetString("SessionKeyphone")">
                                         </div>
                                     </div>
                                 </div>
@@ -175,18 +226,10 @@
                         <div role="tabpanel" class="tab-pane fade in" id="change_password_settings">
                             <form class="form-horizontal">
                                 <div class="form-group">
-                                    <label for="OldPassword" class="col-sm-3 control-label">Old Password</label>
-                                    <div class="col-sm-9">
-                                        <div class="form-line">
-                                            <input type="password" class="form-control" id="OldPassword" name="OldPassword" placeholder="Old Password" required>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
                                     <label for="NewPassword" class="col-sm-3 control-label">New Password</label>
                                     <div class="col-sm-9">
                                         <div class="form-line">
-                                            <input type="password" class="form-control" id="NewPassword" name="NewPassword" placeholder="New Password" required>
+                                            <input type="password" class="form-control" id="txtNewPassword" name="NewPassword" placeholder="New Password" required>
                                         </div>
                                     </div>
                                 </div>
@@ -194,7 +237,7 @@
                                     <label for="NewPasswordConfirm" class="col-sm-3 control-label">New Password (Confirm)</label>
                                     <div class="col-sm-9">
                                         <div class="form-line">
-                                            <input type="password" class="form-control" id="NewPasswordConfirm" name="NewPasswordConfirm" placeholder="New Password (Confirm)" required>
+                                            <input type="password" class="form-control" id="txtNewPasswordConfirm" name="NewPasswordConfirm" placeholder="New Password (Confirm)" required>
                                         </div>
                                     </div>
                                 </div>

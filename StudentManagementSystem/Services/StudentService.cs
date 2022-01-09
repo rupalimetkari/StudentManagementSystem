@@ -44,7 +44,6 @@ namespace StudentManagementSystem.Repository
                     Fname = student.Fname,
                     Lname = student.Lname,
                     Email = student.Email,
-                    password = student.password,
                     phone = student.phone
                 };
                 return createdStudent;
@@ -85,8 +84,6 @@ namespace StudentManagementSystem.Repository
             parameters.Add("id", id, DbType.Int32);
             parameters.Add("Fname", student.Fname, DbType.String);
             parameters.Add("Lname", student.Lname, DbType.String);
-            parameters.Add("Email", student.Email, DbType.String);
-            parameters.Add("password", student.password, DbType.String);
             parameters.Add("phone", student.phone, DbType.String);
             using (var connection = _context.CreateConnection())
             {
@@ -96,8 +93,6 @@ namespace StudentManagementSystem.Repository
                     id = id,
                     Fname = student.Fname,
                     Lname = student.Lname,
-                    Email = student.Email,
-                    password = student.password,
                     phone = student.phone
                 };
                 return createdStudent;
@@ -119,15 +114,14 @@ namespace StudentManagementSystem.Repository
         //Login a student
         public async  Task<Students> LoginStudent(string email, string password)
         {
-
+            //using email to get student data
             var procedureName = "loginstudent";
             var parameters = new DynamicParameters();
             parameters.Add("Email", email, DbType.String, ParameterDirection.Input);
             using var connection = _context.CreateConnection();
             var students = await connection.QuerySingleAsync(procedureName, parameters, commandType: CommandType.StoredProcedure);
 
-    
-            //Extracting id and password
+            //Extracting id and password from the dapper row
             var Heading = ((IDictionary<string, object>)students).Keys.ToArray();
             var details = ((IDictionary<string, object>)students);
             var id = int.Parse(details[Heading[0]].ToString());
@@ -136,6 +130,7 @@ namespace StudentManagementSystem.Repository
             //verify password
             bool passkey = salt.VerifyHash(password, "SHA512", passworddb);
 
+            //if verified return the student
             if(passkey == true)
             {
                 var _procedureName = "StudentViewByID";
@@ -151,6 +146,20 @@ namespace StudentManagementSystem.Repository
             }
 
 
+        }
+
+        public async Task<string> UpdatePasswordStudent(int id, string password)
+        {
+            var procedureName = "updateStudentPassword";
+            var parameters = new DynamicParameters();
+            parameters.Add("id", id, DbType.Int32);
+            var _password = salt.ComputeHash(password, "SHA512", null);
+            parameters.Add("password", _password, DbType.String);
+            using (var connection = _context.CreateConnection())
+            {
+               await connection.ExecuteAsync(procedureName, parameters, commandType: CommandType.StoredProcedure);
+            }
+            return _password;
         }
     }
 }
