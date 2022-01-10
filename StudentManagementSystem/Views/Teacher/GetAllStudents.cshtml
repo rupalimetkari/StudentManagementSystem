@@ -21,12 +21,12 @@
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             success: function (data) {
-                var table = $("#TableD").DataTable();
+                var table = $("#Tablestudent").DataTable();
                 table.clear();
                 $.each(data, function (index, record) {
                     table.row.add([record.fname, record.lname, record.email, record.phone, '<a href="getstudent/' + record.id + '">Detail</a>']);
                 });
-                table.draw();    
+                table.draw();
             },
             failure: function (data) {
                 alert(data.responseText);
@@ -47,10 +47,10 @@
 <div class="row clearfix">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="card">
-         
+
             <div class="body">
-                <div class="table-responsive">
-                    <table class="table table-bordered table-striped table-hover dataTable js-basic-example" id="TableD">
+                <div class="table-responsive" style="overflow-x:visible !important">
+                    <table class="table table-bordered table-striped table-hover dataTable js-basic-example" id="Tablestudent" >
                         <thead>
                             <tr>
                                 <th>First Name</th>
@@ -58,7 +58,7 @@
                                 <th>Email</th>
                                 <th>Phone</th>
                                 <th></th>
-                             
+
                             </tr>
                         </thead>
                         <tfoot>
@@ -70,7 +70,7 @@
                                 <th></th>
                             </tr>
                         </tfoot>
-                      
+
                     </table>
                 </div>
             </div>
