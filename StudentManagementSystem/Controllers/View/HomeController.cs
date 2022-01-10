@@ -13,7 +13,18 @@ namespace StudentManagementSystem.Controllers.View
         [Route("index")]
         public IActionResult Index()
         {
-           
+            if (HttpContext.Session.GetInt32("SessionKeyUserType") == 1)
+            {
+
+            }
+            else if (HttpContext.Session.GetInt32("SessionKeyUserType") == 2)
+            {
+                return RedirectToAction("Index", "Teacher");
+            }
+            else if (HttpContext.Session.GetInt32("SessionKeyUserType") == 3)
+            {
+                return RedirectToAction("Index", "Students");
+            }
             return View();
         }
 
