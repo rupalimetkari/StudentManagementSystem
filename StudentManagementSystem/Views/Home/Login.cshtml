@@ -22,7 +22,26 @@
             var ddl = document.getElementById("ddlusertype").value;
 
             if (ddl == 1) {
+                $.ajax(
+                    {
+                        type: "POST",
+                        url: "/api/admin/loginadmin/",
+                        dataType: "text",
+                        data: data,
+                        success: function () {
+                            alert("Admin Logged Succesfully.");
+                            window.location = "/admin/index";
+                        },
+                        error: function (d) {
+                            alert("Credentials wrong");
+                            document.getElementById("txtpassword").value = "";
+                            document.getElementById("txtemail").value = "";
+                        },
+                        failure: function (d) {
+                            alert("Credentials wrong");
+                        }
 
+                    });
             } else if (ddl == 2) {
                 $.ajax(
                     {

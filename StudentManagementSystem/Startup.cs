@@ -7,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using StudentManagementSystem.Context;
 using StudentManagementSystem.Contracts;
 using StudentManagementSystem.Repository;
+using StudentManagementSystem.Services;
 using System;
 
 namespace StudentManagementSystem
@@ -29,6 +30,7 @@ namespace StudentManagementSystem
             services.AddScoped<IStudentRepository, StudentService>();
             services.AddScoped<ITeacherRepository, TeacherService>();
             services.AddScoped<ICourseRepository, CourseService>();
+            services.AddScoped<IAdminRepository, AdminService>();
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddMvc(options =>

@@ -455,6 +455,8 @@ E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.TagHelpers.input.cache
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.TagHelpers.output.cache
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.RazorCoreGenerate.cache
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Admin\GetAllStudents.cshtml.g.cs
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Course\Create.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Course\Deletecourse.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Course\GetAll.cshtml.g.cs
@@ -466,6 +468,7 @@ E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Home\Profile.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Home\Register.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Shared\_Authtemp.cshtml.g.cs
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Shared\_LayoutAdmin.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Shared\_LayoutStudent.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Shared\_LayoutTeacher.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -476,7 +479,6 @@ E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\Index.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\Profile.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Students\UpdateStudent.cshtml.g.cs
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\TeacherView\Index.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Teacher\Create.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Teacher\DeleteTeacher.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Teacher\GetAll.cshtml.g.cs
@@ -496,4 +498,4 @@ E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\ref\StudentManagementSystem.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.pdb
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.genruntimeconfig.cache
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.csproj.AssemblyReference.cache
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Admin\GetAllTeachers.cshtml.g.cs

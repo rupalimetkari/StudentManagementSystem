@@ -16,7 +16,7 @@
 
 
         $("#btnsignup").on('click', function (e) {
-            e.preventDefault();
+           
             var data = {
                 Fname: $("#txtfname").val(),
                 Lname: $("#txtlname").val(),
@@ -27,15 +27,30 @@
             var confirm = document.getElementById("txtconfirmpassword").value;
             var ddl = document.getElementById("ddlusertype").value;
 
-            var msg = Validate(data.Fname, data.Lname, data.Email, data.password, confirm, data.phone);
+           @* var msg = ValidateRegister(data.Fname, data.Lname, data.Email, data.password, confirm, data.phone);
 
             if (msg != "allset") {
                 alert(msg);
                 return false;
-            }
+            }*@
 
             if (data.password == confirm) {
                 if (ddl == 1) {
+                    console.log(data);
+                    $.ajax(
+                        {
+                            type: "POST",
+                            url: "/api/admin/createadmin/",
+                            dataType: "text",
+                            data: data,
+                            success: function () {
+                                alert("Admin Created successfully.");
+                                window.location = "/login";
+                            },
+                            error: function () {
+                            }
+
+                        });
 
                 } else if (ddl == 2) {
                     $.ajax(

@@ -1,0 +1,12 @@
+﻿
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "Index";
+    ViewData["PersonName"] = HttpContextAccessor.HttpContext.Session.GetString("SessionKeyFname");
+    ViewData["PersonEmail"] = HttpContextAccessor.HttpContext.Session.GetString("SessionKeyEmail");
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<h1>This is Admin Index</h1>

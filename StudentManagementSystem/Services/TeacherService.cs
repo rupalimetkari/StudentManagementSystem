@@ -86,7 +86,7 @@ namespace StudentManagementSystem.Repository
             }
         }
 
-        //Update a student
+        //Update a Teacher
         public async Task<Teacher> UpdateTeacher(int id, Teacher teacher)
         {
             var procedureName = "updateTeacher";
