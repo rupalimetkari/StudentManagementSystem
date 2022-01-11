@@ -80,6 +80,18 @@ namespace StudentManagementSystem.Controllers
             return View();
         }
 
+        [Route("getstudent/{id}")]
+        public IActionResult GetStudent()
+        {
+            if (HttpContext.Session.GetInt32("SessionKeyUserType") == null)
+            {
+                return RedirectToAction("Login", "Home");
+            }
+
+            return View();
+        }
+
+
 
     }
 }

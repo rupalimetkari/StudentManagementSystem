@@ -56,6 +56,7 @@
     <None Include="wwwroot\js\pages\widgets\infobox\infobox-3.js" />
     <None Include="wwwroot\js\pages\widgets\infobox\infobox-4.js" />
     <None Include="wwwroot\js\pages\widgets\infobox\infobox-5.js" />
+    <None Include="wwwroot\js\Validate.js" />
     <None Include="wwwroot\plugins\autosize\autosize.js" />
     <None Include="wwwroot\plugins\autosize\autosize.min.js" />
     <None Include="wwwroot\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.css.map" />
