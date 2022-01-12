@@ -91,6 +91,27 @@ namespace StudentManagementSystem.Controllers.View
             return View();
         }
 
+        [Route("GetAllCourses")]
+        public IActionResult GetAllCourses()
+        {
+            if (HttpContext.Session.GetInt32("SessionKeyUserType") == null)
+            {
+                return RedirectToAction("Login", "Home");
+            }
+
+            return View();
+        }
+
+        [Route("CreateCourse")]
+        public IActionResult CreateCourse()
+        {
+            if (HttpContext.Session.GetInt32("SessionKeyUserType") == null)
+            {
+                return RedirectToAction("Login", "Home");
+            }
+
+            return View();
+        }
 
 
     }

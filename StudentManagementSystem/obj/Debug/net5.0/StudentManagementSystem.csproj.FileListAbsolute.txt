@@ -441,7 +441,6 @@ E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.csproj.AssemblyReference.cache
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.AssemblyInfoInputs.cache
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.AssemblyInfo.cs
@@ -456,6 +455,8 @@ E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.TagHelpers.input.cache
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.TagHelpers.output.cache
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\StudentManagementSystem.RazorCoreGenerate.cache
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Admin\CreateCourse.cshtml.g.cs
+E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Admin\GetAllCourses.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Admin\GetAllStudents.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Admin\GetAllTeachers.cshtml.g.cs
 E:\New folder (2)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs

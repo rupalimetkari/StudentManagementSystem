@@ -1,0 +1,108 @@
+﻿
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "CreateCourse";
+    ViewData["PersonName"] = HttpContextAccessor.HttpContext.Session.GetString("SessionKeyFname");
+    ViewData["PersonEmail"] = HttpContextAccessor.HttpContext.Session.GetString("SessionKeyEmail");
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="~/js/Validate.js" type="text/javascript"></script>
+
+<script>
+
+
+    $(document).ready(function () {
+
+
+        $("#createcourse").on('click', function (e) {
+            var data = {
+                name : $("#course_name").val(),
+                course_no: $("#course_no").val(),
+                year: $("#year").val(),
+                semester: $("input[type='radio']:checked").val(),
+                description: $("#description").val(),
+                capacity: $("#capacity").val(),
+            };
+            console.log(data);
+            e.preventDefault();
+           $.ajax({
+                    type: "POST",
+                    url: "/api/course/createcourse/",
+                    dataType: "text",
+                    data: data,
+                    success: function () {
+                        alert("Course Created successfully.");
+                        window.location = "/admin/GetAllCourses";
+                    },
+                    error: function () {
+                    }
+            }); 
+        });
+
+
+    });
+
+</script>
+
+<!-- Basic Validation -->
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2>Create New Course</h2>
+
+            </div>
+            <div class="body">
+                <form id="form_validation" method="POST">
+                    <div class="form-group form-float">
+                        <div class="form-line">
+                            <input type="text" class="form-control" name="name" required id="course_name">
+                            <label class="form-label">Course Name</label>
+                        </div>
+                    </div>
+                    <div class="form-group form-float">
+                        <div class="form-line">
+                            <input type="number" class="form-control" name="course_no" required id="course_no">
+                            <label class="form-label">Course No</label>
+                        </div>
+                    </div>
+                    <div class="form-group form-float">
+                        <div class="form-line">
+                            <input type="number" class="form-control" name="year" id="year" required min="2000" max="3000">
+                            <label class="form-label">Year</label>
+                        </div>
+                    </div>
+                    <div class="form-group" id="semesterradio">
+                        <label class="form-label">Semester:</label>
+                        <input type="radio" name="semester" value="spring" class="with-gap" id="radiospring">
+                        <label for="radiospring">Spring</label>
+
+                        <input type="radio" name="semester" value="summer" class="with-gap" id="radiosummer">
+                        <label for="radiosummer">Summer</label>
+
+                        <input type="radio" name="semester" value="fall" class="with-gap" id="radiofall">
+                        <label for="radiofall">Fall</label>
+                    </div>
+                    <div class="form-group form-float">
+                        <div class="form-line">
+                            <textarea name="description" cols="30" rows="5" class="form-control no-resize" required id="description"></textarea>
+                            <label class="form-label">Description</label>
+                        </div>
+                    </div>
+                    <div class="form-group form-float">
+                        <div class="form-line">
+                            <input type="number" class="form-control" name="capacity" id="capacity" required min="1" max="500">
+                            <label class="form-label">Capacity</label>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary waves-effect" type="submit" id="createcourse">Create</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- #END# Basic Validation -->
