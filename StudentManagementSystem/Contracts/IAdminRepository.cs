@@ -17,6 +17,12 @@ namespace StudentManagementSystem.Contracts
 
         //Get a Single Admin
         public Task<Admin> GetViewAdmin(int id);
-        
+
+        //Update a admin
+        public Task<Admin> UpdateAdmin(int id,Admin admin);
+
+        //Update admin Password
+        public Task<string> UpdatePasswordAdmin(int id, string password);
+
     }
 }

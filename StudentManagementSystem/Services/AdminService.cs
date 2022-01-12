@@ -94,8 +94,45 @@ namespace StudentManagementSystem.Services
             }
         }
 
-     
+        //Update a admin
+        public async Task<Admin> UpdateAdmin(int id, Admin admin)
+        {
+            var procedureName = "updateAdmin";
+            var parameters = new DynamicParameters();
+            parameters.Add("id", id, DbType.Int32);
+            parameters.Add("Fname", admin.Fname, DbType.String);
+            parameters.Add("Lname", admin.Lname, DbType.String);
+            parameters.Add("phone", admin.phone, DbType.String);
+            using (var connection = _context.CreateConnection())
+            {
+                await connection.ExecuteAsync(procedureName, parameters, commandType: CommandType.StoredProcedure);
+                var createdAdmin = new Admin
+                {
+                    id = id,
+                    Fname = admin.Fname,
+                    Lname = admin.Lname,
+                    phone = admin.phone
+                };
+                return createdAdmin;
+            }
+        }
 
-       
+        public async Task<string> UpdatePasswordAdmin(int id, string password)
+        {
+            var procedureName = "updateAdminPassword";
+            var parameters = new DynamicParameters();
+            parameters.Add("id", id, DbType.Int32);
+            var _password = salt.ComputeHash(password, "SHA512", null);
+            parameters.Add("password", _password, DbType.String);
+            using (var connection = _context.CreateConnection())
+            {
+                await connection.ExecuteAsync(procedureName, parameters, commandType: CommandType.StoredProcedure);
+            }
+            return _password;
+        }
+
+
+
+
     }
 }

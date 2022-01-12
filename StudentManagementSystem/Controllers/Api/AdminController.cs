@@ -56,6 +56,41 @@ namespace StudentManagementSystem.Controllers.Api
             }
         }
 
+        //Update a admin
+        [HttpPut("updateAdmin/{id}")]
+        public async Task<IActionResult> updateAdmin(int id, Admin admin)
+        {
+
+            try
+            {
+                var std = await _adminRepo.UpdateAdmin(id, admin);
+                HttpContext.Session.SetString("SessionKeyFname", std.Fname);
+                HttpContext.Session.SetString("SessionKeyLname", std.Lname);
+                HttpContext.Session.SetString("SessionKeyphone", std.phone);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                //log error
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+        [HttpPut("UpdatePasswordAdmin")]
+        public async Task<IActionResult> UpdatePasswordAdmin(int id, string password)
+        {
+            try
+            {
+                var pass = await _adminRepo.UpdatePasswordAdmin(id, password);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                //log error
+                return StatusCode(500, ex.Message);
+            }
+        }
+
         [HttpPost("loginadmin")]
         public async Task<IActionResult> LoginAdmin(string email, string password)
         {

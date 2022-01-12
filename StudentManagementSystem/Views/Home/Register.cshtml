@@ -27,32 +27,15 @@
             var confirm = document.getElementById("txtconfirmpassword").value;
             var ddl = document.getElementById("ddlusertype").value;
 
-           @* var msg = ValidateRegister(data.Fname, data.Lname, data.Email, data.password, confirm, data.phone);
+            var msg = ValidateRegister(data.Fname, data.Lname, data.Email, data.password, confirm, data.phone);
 
             if (msg != "allset") {
                 alert(msg);
                 return false;
-            }*@
+            }
 
             if (data.password == confirm) {
-                if (ddl == 1) {
-                    console.log(data);
-                    $.ajax(
-                        {
-                            type: "POST",
-                            url: "/api/admin/createadmin/",
-                            dataType: "text",
-                            data: data,
-                            success: function () {
-                                alert("Admin Created successfully.");
-                                window.location = "/login";
-                            },
-                            error: function () {
-                            }
-
-                        });
-
-                } else if (ddl == 2) {
+                 if (ddl == 2) {
                     $.ajax(
                         {
                             type: "POST",
@@ -143,7 +126,6 @@
 
                     <select class="form-control show-tick" id="ddlusertype"  >
                         <option>-- Select User Type --</option>
-                        <option value="1">Admin</option>
                         <option value="2">Teacher</option>
                         <option value="3">Student</option>
 

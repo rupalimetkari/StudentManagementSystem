@@ -15,7 +15,7 @@ namespace StudentManagementSystem.Controllers.View
         {
             if (HttpContext.Session.GetInt32("SessionKeyUserType") == 1)
             {
-
+                return RedirectToAction("Index", "Admin");
             }
             else if (HttpContext.Session.GetInt32("SessionKeyUserType") == 2)
             {
@@ -39,7 +39,7 @@ namespace StudentManagementSystem.Controllers.View
         {
             if (HttpContext.Session.GetInt32("SessionKeyUserType") == 1)
             {
-
+                return RedirectToAction("Profile", "Admin");
             }
             else if (HttpContext.Session.GetInt32("SessionKeyUserType") == 2)
             {

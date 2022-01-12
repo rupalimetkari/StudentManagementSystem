@@ -26,7 +26,10 @@ namespace StudentManagementSystem.Repository
             var parameters = new DynamicParameters();
             parameters.Add("name", course.name, DbType.String);
             parameters.Add("course_no", course.course_no, DbType.Int32);
-            
+            parameters.Add("semester", course.semester, DbType.String);
+            parameters.Add("year", course.year, DbType.Int32);
+            parameters.Add("description", course.description, DbType.String);
+            parameters.Add("capacity", course.capacity, DbType.Int32);
             using (var connection = _context.CreateConnection())
             {
                 var id = await connection.QuerySingleAsync<int>(procedureName, parameters, commandType: CommandType.StoredProcedure);
@@ -34,8 +37,11 @@ namespace StudentManagementSystem.Repository
                 {
                     id = id,
                     name = course.name,
-                    course_no = course.course_no
-                    
+                    course_no = course.course_no,
+                    semester = course.semester,
+                    year = course.year,
+                    description = course.description,
+                    capacity = course.capacity
                 };
                 return createdCourse;
             }
@@ -87,7 +93,10 @@ namespace StudentManagementSystem.Repository
             parameters.Add("id", id, DbType.Int32);
             parameters.Add("name", course.name, DbType.String);
             parameters.Add("course_no", course.course_no, DbType.Int32);
-          
+            parameters.Add("semester", course.semester, DbType.String);
+            parameters.Add("year", course.year, DbType.Int32);
+            parameters.Add("description", course.description, DbType.String);
+            parameters.Add("capacity", course.capacity, DbType.Int32);
             using (var connection = _context.CreateConnection())
             {
                 await connection.ExecuteAsync(procedureName, parameters, commandType: CommandType.StoredProcedure);
@@ -95,8 +104,11 @@ namespace StudentManagementSystem.Repository
                 {
                     id = id,
                     name = course.name,
-                    course_no = course.course_no
-                   
+                    course_no = course.course_no,
+                    semester = course.semester,
+                    year = course.year,
+                    description = course.description,
+                    capacity = course.capacity
                 };
                 return createdCourse;
             }

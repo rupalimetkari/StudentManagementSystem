@@ -35,10 +35,20 @@ namespace StudentManagementSystem.Controllers.View
                 return RedirectToAction("Login", "Home");
             }
 
+            return View();
+        }
 
+        [Route("profile")]
+        public IActionResult Profile()
+        {
+            if (HttpContext.Session.GetInt32("SessionKeyUserType") == null)
+            {
+                return RedirectToAction("Login", "Home");
+            }
 
             return View();
         }
+
 
         [Route("GetAllStudents")]
         public IActionResult GetAllStudents()
@@ -69,6 +79,14 @@ namespace StudentManagementSystem.Controllers.View
             {
                 return RedirectToAction("Login", "Home");
             }
+
+            return View();
+        }
+
+        //Update a admin
+        [Route("updateadmin/{id}")]
+        public ActionResult UpdateAdmin(int id)
+        {
 
             return View();
         }
