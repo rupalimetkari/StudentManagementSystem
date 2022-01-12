@@ -14,7 +14,6 @@
 
     $(document).ready(function () {
 
-
         $("#btnsignup").on('click', function (e) {
            
             var data = {
@@ -27,7 +26,7 @@
             var confirm = document.getElementById("txtconfirmpassword").value;
             var ddl = document.getElementById("ddlusertype").value;
 
-            var msg = ValidateRegister(data.Fname, data.Lname, data.Email, data.password, confirm, data.phone);
+            var msg = ValidateRegister(data.Fname, data.Lname, data.Email, data.password, confirm, data.phone, ddl);
 
             if (msg != "allset") {
                 alert(msg);
@@ -72,8 +71,6 @@
                 document.getElementById("txtpassword").value = "";
             };
 
-
-           
         });
 
 
@@ -117,22 +114,16 @@
                     </div>
                 </div>
 
-
                 <div class="input-group">
                     <span class="input-group-addon">
                         <i class="material-icons">phone</i>
                     </span>
-
-
                     <select class="form-control show-tick" id="ddlusertype"  >
-                        <option>-- Select User Type --</option>
+                        <option value="0">-- Select User Type --</option>
                         <option value="2">Teacher</option>
                         <option value="3">Student</option>
-
                     </select>
-
                 </div>
-
 
                 <div class="input-group">
                     <span class="input-group-addon">

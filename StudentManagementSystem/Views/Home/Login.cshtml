@@ -7,7 +7,7 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-
+<script src="~/js/Validate.js" type="text/javascript"></script>
 
 
 <script>
@@ -20,6 +20,13 @@
                 password: $("#txtpassword").val()
             };
             var ddl = document.getElementById("ddlusertype").value;
+
+            var msg = ValidateLogin(data.Email, ddl, data.password);
+
+            if (msg != "allset") {
+                alert(msg);
+                return false;
+            }
 
             if (ddl == 1) {
                 $.ajax(
