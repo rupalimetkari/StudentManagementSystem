@@ -26,15 +26,17 @@
             var confirm = document.getElementById("txtconfirmpassword").value;
             var ddl = document.getElementById("ddlusertype").value;
 
+            console.log(data);
+
             var msg = ValidateRegister(data.Fname, data.Lname, data.Email, data.password, confirm, data.phone, ddl);
 
             if (msg != "allset") {
                 alert(msg);
                 return false;
             }
-
+       
             if (data.password == confirm) {
-                 if (ddl == 2) {
+                if (ddl == 2) {
                     $.ajax(
                         {
                             type: "POST",
@@ -49,7 +51,7 @@
                             }
 
                         });
-                } else {
+                } else if (ddl == 3) {
                     $.ajax(
                         {
                             type: "POST",
@@ -64,6 +66,8 @@
                             }
 
                         });
+                } else {
+
                 }
             } else {
                 alert("Password did not match");
@@ -71,6 +75,7 @@
                 document.getElementById("txtpassword").value = "";
             };
 
+            e.preventDefault();
         });
 
 
