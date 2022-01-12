@@ -82,8 +82,20 @@ namespace StudentManagementSystem.Controllers
             return View();
         }
 
+        [Route("Course")]
+        public IActionResult Course()
+        {
+            if (HttpContext.Session.GetInt32("SessionKeyUserType") == null)
+            {
+                return RedirectToAction("Login", "Home");
+            }
 
-     
+            return View();
+        }
+
+
+
+
 
     }
     
