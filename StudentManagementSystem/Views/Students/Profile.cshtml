@@ -98,6 +98,8 @@
                     dataType: "html",
                     success: function () {
                         alert("Password Updated Successfully");
+                        document.getElementById("txtNewPassword").value = "";
+                        document.getElementById("txtNewPasswordConfirm").value = "";  ,
                     },
                     failure: function () {
                         alert("failure");

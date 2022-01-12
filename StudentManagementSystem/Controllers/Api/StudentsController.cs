@@ -20,6 +20,7 @@ namespace StudentManagementSystem.Controllers.Api
     {
         private readonly IStudentRepository _studentRepo;
 
+       
 
         public StudentsController(IStudentRepository studentRepo)
         {
@@ -28,12 +29,13 @@ namespace StudentManagementSystem.Controllers.Api
 
         //Create a new student
         [HttpPost("createstudent")]
-        public IActionResult CreateStudent(Students model)
+        public IActionResult CreateStudent(Students std)
         {
+
 
             try
             {
-                _studentRepo.CreateStudents(model);
+                _studentRepo.CreateStudents(std);
             }
             catch (Exception ex)
             {
